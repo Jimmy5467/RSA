@@ -1,0 +1,26 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+        <h1>RSA</h1>
+        <form action="/key_g/" method="post">
+            {% csrf_token %}
+            <input type="submit" value="Generate Keys"><br><br>
+            <!--Input Text:<input type="text" name="param" required><br><br>-->
+            Encryption key:  {{data1}}<br><br>
+            Decryption Key: {{data2}}<br><br>
+        </form>
+
+
+        <form action="/encryption/" method="post">{% csrf_token %}
+            Input Text : <input type="text" name="param1" required><br><br>
+            <input type="submit" value="Encrypt"><br><br>
+            Encrypted : {{enc}}<br><br>
+        </form>
+
+        <form action="/decryption/" method="post">{% csrf_token %}
+            Input Text : <input type="text" name="param2" required><br><br>
+            <input type="submit" value="Decrypt"><br><br>
+            Decrypted : {{dec}}<br><br>
+        </form>
+{% endblock %}
