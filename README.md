@@ -6,7 +6,7 @@
 <a href="https://github.com/Jimmy5467/RSA/pullss"><img src="https://img.shields.io/github/issues-pr/Jimmy5467/RSA?&style=flat-square"/></a> 
 <a href="https://github.com/Jimmy5467/RSA/issues"><img src="https://img.shields.io/github/issues/Jimmy5467/RSA?style=flat-square"/></a> 
 <a href="https://github.com/Jimmy5467/RSA/graphs/contributors"><img src="https://img.shields.io/github/contributors/Jimmy5467/RSA?&style=flat-square&color=orange"/></a> 
-<a href="https://github.com/Jimmy5467/RSA/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Jimmy5467/RSA?&style=flat-square&color=1abc9c"/></a> 
+<a href="https://github.com/Jimmy5467/RSA/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Jimmy5467/RSA?&style=flat-square&color=yellow"/></a> 
 <br>
   
 ![](https://img.shields.io/badge/Star-If_Liked-%23FF0000.svg?&style=flat-square&logoColor=white&color=white)
